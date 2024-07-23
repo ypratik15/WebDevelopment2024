@@ -1,1 +1,2 @@
-Hey! Here are the Web Development Practical of ADIT,CVM University
+Hey! There
+Here are the Web Development Practicals of ADIT,CVM University
