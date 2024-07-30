@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title>
+</head>
+<body>
+    <h1>Sample Image Display</h1>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    <p>This is a placeholder image. You can replace the 'src' attribute with the URL of your image.</p>
+    
+    <h2>Image with Width and Height</h2>
+    <img src="https://via.placeholder.com/300x200" alt="Placeholder Image" width="300" height="200">
+    
+    <h2>Image with Style</h2>
+    <img src="https://via.placeholder.com/200" alt="Styled Image" style="border: 2px solid black; border-radius: 8px;">
+</body>
+</html>
