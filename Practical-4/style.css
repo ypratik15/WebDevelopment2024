@@ -1,0 +1,45 @@
+h3{
+    color:black;
+    font-weight: 900px;
+    background-color: bisque;
+}
+h1{
+    color:blue;
+    text-decoration: red underline;
+}
+
+#box{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    text-decoration:black wavy underline;
+    font-size: large;
+    font-family: Courier;
+    border: 5px dashed green;
+    padding-left: 25px;
+}
+a{
+    text-decoration: none;
+    font-family:Helvetica;
+    
+}
+#one{
+    font-size: 20px;;
+    text-transform: capitalize;
+}
+#two{
+    font-size: 25px;;
+    text-transform: uppercase;
+}
+#three{
+    font-size: 15px;;
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color: chocolate;
+    border-width: 10px;
+    border-style: solid; border-radius: 20px;
+    padding: 15px;
+    margin-top: 15px;
+}
