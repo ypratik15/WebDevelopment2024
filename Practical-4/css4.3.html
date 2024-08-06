@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 1500px; /* To demonstrate scrolling for the sticky and fixed positions */
+    padding: 20px;
+    position: relative; /* This ensures that absolute positioning is relative to this container */
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.relative {
+    background-color: lightblue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 1; /* Layer 1 */
+}
+
+.absolute {
+    background-color: lightcoral;
+    position: absolute;
+    top: 150px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 2; /* Layer 2 */
+}
+
+.sticky {
+    background-color: lightgreen;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 3; /* Layer 3 */
+}
+
+.fixed {
+    background-color: lightsalmon;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4; /* Layer 4 */
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Examples</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box relative">Relative Position</div>
+        <div class="box absolute">Absolute Position</div>
+        <div class="box sticky">Sticky Position</div>
+        <div class="box fixed">Fixed Position</div>
+    </div>
+</body>
+</html>
